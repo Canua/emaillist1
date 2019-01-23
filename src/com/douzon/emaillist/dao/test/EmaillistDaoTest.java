@@ -2,8 +2,8 @@ package com.douzon.emaillist.dao.test;
 
 import java.util.List;
 
+import com.douzon.emaillist.dao.EmaillistDao;
 import com.douzon.emaillist.vo.EmaillistVo;
-import com.duzon.emaillist.dao.EmaillistDao;
 
 public class EmaillistDaoTest {
 

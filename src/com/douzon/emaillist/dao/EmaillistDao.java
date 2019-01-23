@@ -1,4 +1,4 @@
-package com.duzon.emaillist.dao;
+package com.douzon.emaillist.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -13,7 +13,7 @@ import com.douzon.emaillist.vo.EmaillistVo;
 public class EmaillistDao {
 	public boolean insert(EmaillistVo vo) {
 		boolean result = false;
-
+ 
 		Connection conn = null;
 		PreparedStatement pstmt = null;
 
